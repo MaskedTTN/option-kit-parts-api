@@ -39,4 +39,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ghcr.io/maskedttn/garage-website-backend:${{ steps.vars.outputs.TAG }}
+          tags: ghcr.io/maskedttn/option-kit-parts-api:${{ steps.vars.outputs.TAG }}
