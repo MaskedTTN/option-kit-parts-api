@@ -32,4 +32,4 @@ jobs:
 
       - name: Run tests for option-kit-parts-api
         run: |
-          python -m pytest -q option-kit-parts-api/tests
+          python -m pytest tests -v
